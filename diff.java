@@ -1,3 +1,4 @@
+GNU nano 6.2                       sum.java
 import java.util.Scanner;
 class sum {
 public static void main(String[] args){
@@ -7,6 +8,6 @@ int a=num.nextInt();
 
 System.out.println("Enter second number: ");
 int b=num.nextInt();
-System.out.println("sum of two numbers is : "+(a+b));
+System.out.println("Difference of two numbers is : "+(a-b));
 }
 }
