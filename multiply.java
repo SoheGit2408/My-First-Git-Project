@@ -7,5 +7,6 @@ int e=sc.nextInt();
 System.out.println("Enter the second number");
 int f=sc.nextInt();
 System.out.println("The product of two numbers is: "+(e*f));
+sc.close();
 }
 }
