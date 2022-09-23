@@ -1,0 +1,20 @@
+f = open("myfile.txt", "r")
+con=f.read(5)
+print(con)
+con=f.read(10)
+print(con)
+# print(f.readlines())
+# print(f.readline(),"1")
+# print(f.readline(),"2")
+# print(f.readline(),"3")
+# content = f.read()
+#
+# for line in f:
+#     print(line,end="")
+# print(content)
+# content = f.read(34455)
+# print("1", content)
+#
+# content = f.read(34455)
+# print("2", content)
+f.close()
